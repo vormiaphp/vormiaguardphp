@@ -1,10 +1,10 @@
 # VormiaGuardPHP
 
-**Why VormiaGuardPHP?**
+Is a Laravel package providing guard and authentication endpoints, middleware, and utilities for the Vormia ecosystem. It is designed to work with VormiaGuardJS and VormiaQueryJS for full-stack authentication and authorization.
+
+**VormiaGuard Packages**
 
 VormiaGuardJS (frontend) enables powerful access control and role-based UI logic, but secure authentication and authorization require backend support. VormiaGuardPHP provides the necessary endpoints (/api/user, /api/can-access) and middleware for Laravel, ensuring your frontend and backend work together securely. Use VormiaGuardPHP with VormiaGuardJS for a complete, secure, full-stack solution.
-
-**VormiaGuardPHP** is a Laravel package providing guard and authentication endpoints, middleware, and utilities for the Vormia ecosystem. It is designed to work with VormiaGuardJS and VormiaQueryJS for full-stack authentication and authorization.
 
 ## Features
 
@@ -141,4 +141,4 @@ VormiaGuardPHP provides the `/api/user` and `/api/can-access` endpoints and guar
 
 ## License
 
-MIT
+VormiaGuardPHP is open-source and available under the MIT License.
