@@ -1,0 +1,23 @@
+{
+  "name": "vormiaphp/vormiaguardphp",
+  "description": "VormiaGuardPHP: Laravel guard/auth package for Vormia ecosystem.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.0",
+    "vormiaphp/vormia": "*",
+    "laravel/sanctum": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "VormiaGuardPhp\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "VormiaGuardPhp\\VormiaGuardPhpServiceProvider"
+      ]
+    }
+  }
+} 

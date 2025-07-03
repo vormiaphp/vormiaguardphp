@@ -1,0 +1,39 @@
+# Composer dependencies
+/vendor/
+
+# Composer itself
+composer.phar
+
+# Laravel specific
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Cache
+/cache/
+/storage/
+
+# PHPUnit
+.phpunit.cache
+
+# User-specific files
+*.swp
+*.bak
+*.tmp
+
+# Node modules (if any frontend assets)
+/node_modules/ 
